@@ -1,3 +1,8 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+
 def add(a,b):
     return a + b
 
